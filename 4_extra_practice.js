@@ -2,4 +2,10 @@
 // I.E.  If you wrote both of your algorithms using for loops, now write them out with while loops
 
 
-// YOUR CODE HERE
+var A = 1;
+while ( A < 21) {
+    if (A % 2 == 1) {
+    console.log(A)
+    }
+A++;
+}
